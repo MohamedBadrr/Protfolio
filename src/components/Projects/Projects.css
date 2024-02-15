@@ -1,0 +1,109 @@
+.projects-container{
+    height: 180vh;
+}
+.projects-title{
+    text-align: center;
+    color: white;
+    font-size: 60px;
+    font-weight: bold;
+    margin-left: -30px;
+    text-shadow: 2px 5px 8px var(--first-color);
+}
+.projects-subtitle{
+    text-align: center;
+    color: var(--first-color);
+    margin-top: -2px;
+    letter-spacing: 1.5px;
+    margin-bottom: 70px;
+    margin-left: -33px;
+}
+.card{
+    height: 500px !important;
+    width: 330px;
+    transition: all.5s;
+    border: 1px solid white !important;
+    cursor: pointer;
+}
+.card:hover{
+    transform: scale(1.1);
+    box-shadow: 2px 10px 10px var(--first-color);
+}
+
+.card-title{
+    font-size: 35px;
+    font-weight: bold;
+    color: var(--first-color) !important;
+    border-left: 1px solid var(--first-color);
+    border-right: 1px solid var(--first-color);
+    border-radius: 10px;
+    margin: 10px 5px 15px 5px !important;
+}
+.card-text{
+    color: rgb(255, 255, 255) !important;
+    font-weight: 500;
+}
+.card-text-2{
+    color: rgb(132, 132, 132) !important;
+    font-weight: 500;
+    font-size: 14.5px !important;
+    margin-bottom: 30px;
+}
+.card a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    transition: .9s all;
+    margin-bottom: 30px !important;
+}
+.card a:hover {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+.card-image{
+    height: 200px;
+    border-bottom: 2px solid var(--first-color);
+    
+}
+.carsool-projects{
+    display: none !important;
+}
+.owl-carousel .owl-nav button.owl-next{
+    color: white !important;
+}
+.owl-carousel .owl-nav button.owl-prev{
+    color: white !important;
+}
+
+
+
+
+@media screen and (max-width: 768px) {
+    .projects-container{
+        height: 100vh;
+    }
+    .projects-title{
+        text-align: center;
+        color: white;
+        font-size: 60px;
+        font-weight: bold;
+        margin-left: 13px;
+        text-shadow: 2px 5px 8px var(--first-color);
+    }
+    .projects-subtitle{
+        text-align: center;
+        color: var(--first-color);
+        margin-top: -2px;
+        letter-spacing: 1.5px;
+        margin-bottom: 70px;
+        margin-left: 30px;
+    }
+    .default-projects{
+        display: none !important;
+    }
+
+    .carsool-projects{
+        display: block !important;
+        margin-left:22.5px !important;
+    }
+
+}
+

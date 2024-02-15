@@ -1,0 +1,34 @@
+
+
+.active{
+    color: red !important;
+    cursor: pointer; 
+}
+.nav{
+    background-color:  var(--body-color) !important;
+}
+.navbar-brand{
+    color: var(--first-color) !important;
+}
+.NavColor{
+    color: white !important;
+    transition: .9s all !important;
+    margin: 0px 8px;
+    font-weight: 600 !important;
+    font-family: 'Times New Roman';
+
+}
+.NavColor:hover{
+    color: var(--first-color) !important;
+}
+.navbar{
+    /* width: 100; */
+    border-bottom: 1px solid var(--first-color);
+    /* position: fixed !important; */
+    /* z-index: 999999 !important; */
+}
+.nav-button a , .nav-button i{
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
