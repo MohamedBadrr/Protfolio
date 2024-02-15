@@ -5,7 +5,7 @@ import cv from "../../assets/Mohamed Badr CV.pdf"
 const Header = () => {
   return (
     <>
-      <nav class="navbar navbar-expand-lg  navbar-dark navBg text-center">
+      <nav class="navbar navbar-expand-lg  navbar-dark navBg text-center ">
   <div class="container ">
     <a class="navbar-brand ms-3 fw-bold" href="#">Mohamed</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">

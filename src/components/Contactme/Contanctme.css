@@ -113,6 +113,7 @@ textarea{
 @media screen and (max-width: 767px) {
     .contact{
         width: 100% !important;
+        height: 108vh;
     }
     .contanctTiltle{
         text-align: center;
@@ -168,5 +169,11 @@ textarea{
         margin: 10px 20px 5px 30px;
         transition: .5s all;
         margin-top: -15px;
+    }
+    .contanctTiltle{
+        margin-top: 65px !important;
+    }
+    .contact-button{
+        margin-left: 20px;
     }
 }

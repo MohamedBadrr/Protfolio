@@ -73,7 +73,24 @@
     color: white !important;
 }
 
-
+@media (min-width: 350px) and (max-width: 390px) {
+    .card{
+        height: 550px !important;
+        width: 260px !important;
+        transition: all.5s;
+        border: 1px solid white !important;
+        cursor: pointer;
+    }
+  }
+  @media (min-width: 390px) and (max-width: 391px) {
+    .card{
+        height: 550px !important;
+        width: 280px !important;
+        transition: all.5s;
+        border: 1px solid white !important;
+        cursor: pointer;
+    }
+  }
 
 
 @media screen and (max-width: 768px) {
@@ -98,12 +115,31 @@
     }
     .default-projects{
         display: none !important;
+        /* width: 100% !important; */
+    }
+    .item{
+        width: 60% !important;
+        /* padding: 50px; */
+        margin-left: 20px;
     }
 
     .carsool-projects{
         display: block !important;
         margin-left:22.5px !important;
+        margin-right:5.5px !important;
     }
-
+    .card{
+        height: 550px !important;
+        width: 300px;
+        transition: all.5s;
+        border: 1px solid white !important;
+        cursor: pointer;
+    }
+    .card-image{
+        height: 200px;
+        width: 100% !important;
+        border-bottom: 2px solid var(--first-color);
+        
+    }
 }
 

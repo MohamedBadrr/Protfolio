@@ -9,6 +9,7 @@
 }
 .navbar-brand{
     color: var(--first-color) !important;
+    background-color: transparent !important;
 }
 .NavColor{
     color: white !important;
@@ -16,6 +17,7 @@
     margin: 0px 8px;
     font-weight: 600 !important;
     font-family: 'Times New Roman';
+    /* background-color: transparent !important; */
 
 }
 .NavColor:hover{
@@ -24,6 +26,7 @@
 .navbar{
     /* width: 100; */
     border-bottom: 1px solid var(--first-color);
+    /* background-color: transparent !important; */
     /* position: fixed !important; */
     /* z-index: 999999 !important; */
 }
@@ -31,4 +34,10 @@
     color: white;
     background-color: transparent;
     text-decoration: none;
+}
+.nav-link {
+    /* background-color: transparent !important; */
+}
+.navbar-toggler{
+    margin-bottom: 3px !important;
 }

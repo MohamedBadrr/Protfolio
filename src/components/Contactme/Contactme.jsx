@@ -71,7 +71,7 @@ const Contactme = () => {
                 {/* <label>Message</label> */}
                 <textarea name="message"  placeholder= ' Messsage' value={message} rows={6} required onChange={(e)=>{setMessage(e.target.value)}} />
                 </div>
-                <button type="submit" value="Send" className='d-button text-white px-4 py-1 my-2' >Send</button>
+                <button type="submit" value="Send" className='d-button text-white px-4 py-1 my-2 contact-button' >Send</button>
             </form>
             </div>
         </div>
