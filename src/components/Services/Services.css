@@ -65,6 +65,26 @@
 
 
 /* @media screen and (max-width: 390px) {} */
+@media (min-width: 350px) and (max-width: 390px) {
+    .services-title{
+        text-align: center;
+        color: white;
+        font-size: 60px;
+        font-weight: bold;
+        margin-left: 20px;
+        margin-top: 20px;
+        text-shadow: 2px 5px 8px var(--first-color);
+    }
+    .services-subtitle{
+        text-align: center;
+        color: var(--first-color);
+        margin-top: -12px;
+        letter-spacing: 1.5px;
+        margin-bottom: 70px;
+        margin-left: 25px;
+    }
+
+}
 @media screen and (max-width: 767px) {
     .services-container{
         height: 165vh !important;

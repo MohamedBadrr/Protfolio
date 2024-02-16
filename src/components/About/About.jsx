@@ -8,10 +8,13 @@ const About = () => {
         <div className='aboutData'>
             <h4>It is an Overview.</h4>
         <h1 className='aboutHeader'>About Me</h1>
-        <p>I'm a Software Enginner and Web Developer . I'm graduated from faculty of Computer Sciences and Artificial Intelligence Helwan university . i Have a very good experience
-            in web development. i have a experience in React Js and bulid many Projects with it . and i have get certificates in this field. I am a faster learner 
-            and collaborated with my clients to do efficient projects . you can download my cv or contact me to work together . i will be so happy to help you to achieve
-            your goal and your ideas.
+        <p>"I am a skilled Software Engineer and Web Developer with a
+            degree from the Faculty of Computer Sciences and Artificial 
+            Intelligence at Helwan University. My expertise lies in web
+            development, particularly in React JS, where I've successfully 
+            delivered numerous projects, backed by my acquired certifications
+            . I excel in collaborating closely with clients, ensuring efficient project execution. A quick learner by nature, I'm eager to contribute to your team and bring your ideas to fruition. Feel free to download my CV or reach out to discussد
+            potential collaborations. I'm excited about helping you achieve your goals."
         </p>
         <button className='d-button downloadcvBtn'><a download=""href={cv}>Download CV <i class="fa-solid fa-download"></i></a></button>
         </div>

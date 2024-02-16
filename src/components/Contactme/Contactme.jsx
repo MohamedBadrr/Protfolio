@@ -19,16 +19,21 @@ const Contactme = () => {
       })
       .then(
         () => {
-          console.log('SUCCESS!');
+          setEmail("");
+          setMessage("");
+          setName("");
+          setPhone("");
+          alert(" Thank You..., I Will Receive Your Message and Text You.")
         },
         (error) => {
-          console.log('FAILED...', error.text);
+          setEmail("");
+          setMessage("");
+          setName("");
+          setPhone("");
+          alert("Some Thing Erorr...!, Please Try Again.")
         },
         );
-        setEmail("");
-        setMessage("");
-        setName("");
-        setPhone("");
+
         };
     return (
     <>

@@ -80,9 +80,10 @@
         transition: all.5s;
         border: 1px solid white !important;
         cursor: pointer;
+        margin-left:-10px;
     }
-  }
-  @media (min-width: 390px) and (max-width: 391px) {
+    }
+    @media (min-width: 390px) and (max-width: 391px) {
     .card{
         height: 550px !important;
         width: 280px !important;

@@ -32,8 +32,8 @@
     padding: 6px 13px;
     /* margin-right: auto !important; */
     position: absolute;
-    right: 18.3rem;
-    margin-top: 5px;
+    right: 18.2rem;
+    margin-top: 0px;
 }
 .downloadcvBtn i{
     background-color: transparent;
@@ -43,18 +43,23 @@
     color: white;
     text-decoration: none;
 }
-@media screen and (max-width: 390px) {
+@media screen and (min-width:350px) and (max-width: 391px) {
     .aboutData{
         margin-left: 10px !important;
         position: relative;
         margin-top: -50px;
-        height: 100vh  !important;
+        height: 106vh  !important;
     }
     .downloadcvBtn{
-        right: 5.5rem !important;
+        right: 5.1rem !important;
         
     }
 }
+@media screen and (min-width:390px) and (max-width: 391px) { 
+    .downloadcvBtn{
+    right: 6.1rem !important;
+    
+}}
 @media screen and (max-width: 767px) {
 
     .aboutData{
@@ -97,7 +102,7 @@
         color: white;
         padding: 6px 13px;
         position: absolute;
-        right: 6.9rem;
+        right: 6.8rem;
         margin-top: 45px;
     }
 }
