@@ -4,6 +4,7 @@ import emailjs from '@emailjs/browser';
 import './Contanctme.css';
 
 const Contactme = () => {
+    const [alertmsg , setAlertmsg]=useState(false);
     const [name,setName]=useState("");
     const [email,setEmail]=useState("");
     const [phone,setPhone]=useState();
@@ -32,7 +33,7 @@ const Contactme = () => {
         setMessage("");
         setName("");
         setPhone("");
-        alert(" Thank You..., I Will Receive Your Message and Text You.")
+        setAlertmsg(!alertmsg)
 
         };
     return (
@@ -60,6 +61,12 @@ const Contactme = () => {
             </div>
             <div className='form'>  
             <form ref={form} onSubmit={sendEmail}>
+                {alertmsg&&(<div class="alert alert-primary " role="alert">
+                Thank You..., I Will Receive Your Message and Text You.
+                  <i class="fa-solid fa-circle-xmark" onClick={()=>{
+                    setAlertmsg(!alertmsg);
+                  }}></i>
+                </div>)}
                 <div className='filed'>
                 {/* <label>Name:</label> */}
                 <input type="text" name="user_name" value={name} placeholder=' Name' required onChange={(e)=>{setName(e.target.value)}}/>
