@@ -44,7 +44,7 @@ const Contactme = () => {
         <h5 className='smalltiltlecontact'>Let's Work together</h5>
             <div className='data'>
             <div className='number'>
-            <i class="fa-solid fa-phone phone-icon"></i>
+            <i class="fa-brands fa-whatsapp phone-icon"></i>
                 <div className='data-number'>
                     <h4>Call me</h4>
                     <p>+02-0102-6049-630</p>

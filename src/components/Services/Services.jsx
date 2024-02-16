@@ -13,14 +13,14 @@ return (
                 <i class="fa-solid fa-code icon-service"></i>
                 <h3>Frontend</h3>
                 <h3 className='mb-4'>Development.</h3>
-                <a href="">Contact Me <i class="fa-solid fa-arrow-right ms-2"></i></a>
+                <a href="#CONTACT">Contact Me <i class="fa-solid fa-arrow-right ms-2"></i></a>
                 </div>
 
                 <div className='service'>
                 <i class="fa-solid fa-server icon-service"></i>
                 <h3>Backend</h3>
                 <h3 className='mb-4' >Development.</h3>
-                <a href="">Contact Me <i class="fa-solid fa-arrow-right ms-2"></i></a>
+                <a href="#CONTACT">Contact Me <i class="fa-solid fa-arrow-right ms-2"></i></a>
                 </div>
 
                 <div className='service'>
