@@ -19,11 +19,6 @@ const Contactme = () => {
       })
       .then(
         () => {
-          setEmail("");
-          setMessage("");
-          setName("");
-          setPhone("");
-          alert(" Thank You..., I Will Receive Your Message and Text You.")
         },
         (error) => {
           setEmail("");
@@ -33,6 +28,11 @@ const Contactme = () => {
           alert("Some Thing Erorr...!, Please Try Again.")
         },
         );
+        setEmail("");
+        setMessage("");
+        setName("");
+        setPhone("");
+        alert(" Thank You..., I Will Receive Your Message and Text You.")
 
         };
     return (
