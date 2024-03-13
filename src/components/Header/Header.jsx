@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link, NavLink } from 'react-router-dom';
 import "./Header.css"
-import cv from "../../assets/Mohamed Badr CV.pdf"
+import cv from "../../assets/Mohamed Badr.pdf"
 const Header = () => {
   return (
     <>
