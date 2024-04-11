@@ -1,5 +1,6 @@
 .projects-container{
-    height: 180vh;
+    height: fit-content;
+    margin-bottom: 50px;
 }
 .projects-title{
     text-align: center;
@@ -17,8 +18,14 @@
     margin-bottom: 70px;
     margin-left: -33px;
 }
+.project{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
 .card{
-    height: 500px !important;
+    height: 550px !important;
     width: 330px;
     transition: all.5s;
     border: 1px solid white !important;
@@ -72,8 +79,35 @@
 .owl-carousel .owl-nav button.owl-prev{
     color: white !important;
 }
+.owl-item {
+        width: 362.4px;
+        margin-right: 15px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
 
-@media (min-width: 350px) and (max-width: 390px) {
+.owl-item .project{
+
+    width: 250px !important;
+    margin-left: -32px !important;
+    
+}
+
+
+
+
+
+
+
+
+
+
+  /* Extra small devices (portrait phones, less than 576px) */
+  @media (min-width: 100px) and (max-width: 575.98px) {
+    .projects-container{
+        height: fit-content;
+    }
     .card{
         height: 550px !important;
         width: 260px !important;
@@ -82,65 +116,91 @@
         cursor: pointer;
         margin-left:-10px;
     }
-    }
-    @media (min-width: 390px) and (max-width: 391px) {
+    
     .card{
         height: 550px !important;
         width: 280px !important;
         transition: all.5s;
         border: 1px solid white !important;
         cursor: pointer;
-    }
-  }
+        }
 
+        .projects-container{
+            height: fit-content;
+        }
+        .projects-title{
+            text-align: center;
+            color: white;
+            font-size: 60px;
+            font-weight: bold;
+            margin-left: 13px;
+            text-shadow: 2px 5px 8px var(--first-color);
+        }
+        .projects-subtitle{
+            text-align: center;
+            color: var(--first-color);
+            margin-top: -2px;
+            letter-spacing: 1.5px;
+            margin-bottom: 70px;
+            margin-left: 30px;
+        }
+        .default-projects{
+            display: none !important;
+            /* width: 100% !important; */
+        }
+        .item{
+            width: 60% !important;
+            /* padding: 50px; */
+            margin-left: 20px;
+        }
+    
+        .carsool-projects{
+            display: block !important;
+            margin-left:22.5px !important;
+            margin-right:5.5px !important;
+        }
+        .card{
+            height: 550px !important;
+            width: 300px;
+            transition: all.5s;
+            border: 1px solid white !important;
+            cursor: pointer;
+        }
+        .card-image{
+            height: 200px;
+            width: 100% !important;
+            border-bottom: 2px solid var(--first-color);
+            
+        }
 
-@media screen and (max-width: 768px) {
+  
+
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) { 
+ }
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
     .projects-container{
-        height: 100vh;
-    }
-    .projects-title{
-        text-align: center;
-        color: white;
-        font-size: 60px;
-        font-weight: bold;
-        margin-left: 13px;
-        text-shadow: 2px 5px 8px var(--first-color);
-    }
-    .projects-subtitle{
-        text-align: center;
-        color: var(--first-color);
-        margin-top: -2px;
-        letter-spacing: 1.5px;
-        margin-bottom: 70px;
-        margin-left: 30px;
-    }
-    .default-projects{
-        display: none !important;
-        /* width: 100% !important; */
-    }
-    .item{
-        width: 60% !important;
-        /* padding: 50px; */
-        margin-left: 20px;
-    }
-
-    .carsool-projects{
-        display: block !important;
-        margin-left:22.5px !important;
-        margin-right:5.5px !important;
+        height: fit-content;
     }
     .card{
-        height: 550px !important;
-        width: 300px;
+        height: 570px !important;
+        width: 330px;
         transition: all.5s;
         border: 1px solid white !important;
         cursor: pointer;
     }
-    .card-image{
-        height: 200px;
-        width: 100% !important;
-        border-bottom: 2px solid var(--first-color);
-        
+    .card .card-title{
+        font-size: 28px;
     }
-}
+     .card a{
+        font-size: 13px;
+    }
+ }
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+ }
 

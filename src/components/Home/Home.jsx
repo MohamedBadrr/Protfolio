@@ -15,7 +15,64 @@ const Home = () => {
   return (
     <section className='home'>
         <div className='container '>
-          <div className='row '>
+
+
+          <div className='container-bubbles'>
+            <div className='bubbles'>
+              {/* <span style={{ "--i": 11 }}></span> */}
+              <span style={{"--i":11}}></span>
+              <span style={{"--i":12}}></span>
+              <span style={{"--i":24}}></span>
+              <span style={{"--i":10}}></span>
+              <span style={{"--i":23}}></span>
+              <span style={{"--i":23}}></span>
+              <span style={{"--i":18}}></span>
+              <span style={{"--i":14}}></span>
+              <span style={{"--i":16}}></span>
+              <span style={{"--i":19}}></span>
+              <span style={{"--i":20}}></span>
+              <span style={{"--i":22}}></span>
+              <span style={{"--i":25}}></span>
+              <span style={{"--i":18}}></span>
+              <span style={{"--i":21}}></span>
+              <span style={{"--i":15}}></span>
+              <span style={{"--i":18}}></span>
+              <span style={{"--i":21}}></span>
+              <span style={{"--i":15}}></span>
+              <span style={{"--i":13}}></span>
+              <span style={{"--i":26}}></span>
+              <span style={{"--i":17}}></span>
+              <span style={{"--i":13}}></span>
+              <span style={{"--i":28}}></span>
+              <span className='bubbles-2' style={{"--i":11}}></span>
+              <span className='bubbles-2' style={{"--i":12}}></span>
+              <span className='bubbles-2' style={{"--i":24}}></span>
+              <span className='bubbles-2' style={{"--i":10}}></span>
+              <span className='bubbles-2' style={{"--i":23}}></span>
+              <span className='bubbles-2' style={{"--i":23}}></span>
+              <span className='bubbles-2' style={{"--i":18}}></span>
+              <span className='bubbles-2' style={{"--i":14}}></span>
+              <span className='bubbles-2' style={{"--i":16}}></span>
+              <span className='bubbles-2' style={{"--i":19}}></span>
+              <span className='bubbles-2' style={{"--i":20}}></span>
+              <span className='bubbles-2' style={{"--i":22}}></span>
+              <span className='bubbles-2' style={{"--i":25}}></span>
+              <span className='bubbles-2' style={{"--i":18}}></span>
+              <span className='bubbles-2' style={{"--i":21}}></span>
+              <span className='bubbles-2' style={{"--i":15}}></span>
+              <span className='bubbles-2' style={{"--i":18}}></span>
+              <span className='bubbles-2' style={{"--i":21}}></span>
+              <span className='bubbles-2' style={{"--i":15}}></span>
+              <span className='bubbles-2' style={{"--i":13}}></span>
+              <span className='bubbles-2' style={{"--i":26}}></span>
+              <span className='bubbles-2' style={{"--i":17}}></span>
+              <span className='bubbles-2' style={{"--i":13}}></span>
+              <span className='bubbles-2' style={{"--i":28}}></span>
+          </div>
+          </div>
+
+
+          <div className='row fix-row-data'>
               <div className='col-md-7'>
                 <div className='home-data'>
                     <h1><span className='hi'>Hi</span>, I'am <span className='specail'>Mohamed</span> </h1>
@@ -42,9 +99,10 @@ const Home = () => {
                 </div>
               </div>
               
-              <div className='col-md-5 imgWithAnimation'>
-              <div className='animation'><HeroBgAnimation /></div>
-                  <div className='home-img'>
+              <div className='col-md-5 '>
+              {/* <div className='animation'><HeroBgAnimation /></div> */}
+                <div className='fix-fullImg'>
+                <div className='home-img'>
                   <svg className='home-blob' viewBox="0 0 200 187" xmlns="http://www.w3.org/2000/svg" >
                     <mask id="mask0" mask-type="alpha">
                         <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 
@@ -57,11 +115,12 @@ const Home = () => {
                         165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 
                         129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 
                         -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
-                        <image className='home-img' href={profileImg}/>
+                        <image className='home-img mx-auto' href={profileImg}/>
                     </g>
                 </svg>
                 
                   </div>
+                </div>
               </div>
           </div>
         </div>

@@ -15,7 +15,7 @@ const Prouects = () => {
     const options = {
         items:1,
         loop:true,
-        autoplay:true,
+        autoplay:false,
         autoplayTimeout:3000,
         nav:1,
         dots:true,
@@ -42,7 +42,7 @@ return (
         <h1 className='projects-title'>Projects</h1>
             <h5 className='projects-subtitle'>Some of My Work</h5>
             <div className='row default-projects'>
-                <div className='col-md-4 mb-5'>
+                <div className='col-md-4 col-sm-6 mb-5'>
                     <div className='project'>
                     <div class="card" >
                     <img src={movies} class="card-img-top w-100 card-image" alt="..." />
@@ -60,7 +60,7 @@ return (
                     </div>
                 </div>
 
-                <div className='col-md-4 '>
+                <div className='col-md-4 col-sm-6'>
                     <div className='project'>
                     <div class="card" >
                     <img src={resto} class="card-img-top w-100 card-image" alt="..." />
@@ -78,7 +78,7 @@ return (
                     </div>
                 </div>
 
-                <div className='col-md-4 mb-5'>
+                <div className='mb-5 col-md-4 col-sm-6'>
                     <div className='project'>
                     <div class="card" >
                     <img src={weather} class="card-img-top w-100 card-image" alt="..." />
@@ -96,7 +96,7 @@ return (
                     </div>
                 </div>
 
-                <div className='col-md-4 mb-5'>
+                <div className=' mb-5 col-md-4  col-sm-6'>
                     <div className='project'>
                     <div class="card" >
                     <img src={edara} class="card-img-top w-100 card-image" alt="..." />
@@ -113,7 +113,7 @@ return (
                     </div>
                 </div>
 
-                <div className='col-md-4 mb-5'>
+                <div className=' mb-5 col-md-4  col-sm-6'>
                     <div className='project'>
                     <div class="card" >
                     <img src={php} class="card-img-top w-100 card-image" alt="..." />
@@ -130,7 +130,7 @@ return (
                     </div>
                 </div>
 
-                <div className='col-md-4 mb-5'>
+                <div className='col-md-4  col-sm-6 mb-5'>
                     <div className='project'>
                     <div class="card" >
                     <img src={elec} class="card-img-top w-100 card-image" alt="..." />

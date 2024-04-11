@@ -15,10 +15,12 @@
     /* margin-left: 35px; */
 }
 .contact{
-    height: 100vh;
+    height: fit-content;
+    margin-bottom: 50px;
     text-align: center !important;
     align-items: center !important;
     width: 95%;
+    
 }
 .data{
     display: flex;
@@ -124,7 +126,8 @@ textarea{
 @media screen and (min-width:360px) and (max-width: 362px) {
     .contact{
         width: 100% !important;
-        height: 114vh !important;
+        height: fit-content !important;
+        margin-bottom: 50px;
     }
 }
 @media screen and (max-width: 767px) {
@@ -142,7 +145,8 @@ textarea{
     }
     .contact{
         width: 100% !important;
-        height: 108vh;
+        height: fit-content !important;
+        margin-bottom: 50px;
     }
     .contanctTiltle{
         text-align: center;
@@ -209,6 +213,7 @@ textarea{
 @media screen and (min-width:360px) and (max-width: 362px) {
     .contact{
         width: 100% !important;
-        height: 116vh;
+        height: fit-content !important;
+        margin-bottom: 50px;
     }
 }

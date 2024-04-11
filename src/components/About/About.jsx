@@ -16,7 +16,9 @@ const About = () => {
             . I excel in collaborating closely with clients, ensuring efficient project execution. A quick learner by nature, I'm eager to contribute to your team and bring your ideas to fruition. Feel free to download my CV or reach out to discussد
             potential collaborations. I'm excited about helping you achieve your goals."
         </p>
+        <div className='dwonloadBtn'>
         <button className='d-button downloadcvBtn'><a download=""href={cv}>Download CV <i class="fa-solid fa-download"></i></a></button>
+        </div>
         </div>
     </div>
     </>
