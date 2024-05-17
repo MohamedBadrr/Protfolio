@@ -8,7 +8,7 @@ const Footer = () => {
           &copy; copyright <strong><span class="specail">Portfolio</span></strong> All Rights Reseved
        </div>
        <div class="credited text-center">
-          Designed By <span class="me">Eng: <strong class="specail">Mohamed Badr</strong></span>
+          Designed By <span class="me">Eng: <strong class="specail">Mohamed Badr Esmail</strong></span>
        </div>
        <div class="icons text-center">
           <a href="https://github.com/MohamedBadrr" target="_blank"><i class="fa-brands fa-github"></i></a>
