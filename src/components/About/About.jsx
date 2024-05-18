@@ -7,7 +7,7 @@ const About = () => {
     const elementAboutButton = document.querySelectorAll(
       ".button-about-animation"
     );
-    if (elementsLeftAbout.length > 0 || elementAboutButton.length) {
+    if (elementsLeftAbout.length > 0 || elementAboutButton.length>0) {
       const options = {
         root: null,
         rootMargin: "0px",
@@ -32,7 +32,7 @@ const About = () => {
       return () => {
         if (elementAboutButton && elementsLeftAbout && observer) {
           elementAboutButton.forEach((element) => observer.unobserve(element));
-          elementAboutButton.forEach((element) => observer.unobserve(element));
+          elementsLeftAbout.forEach((element) => observer.unobserve(element));
         }
       };
     }
@@ -56,7 +56,7 @@ const About = () => {
             CV or reach out to discussد potential collaborations. I'm excited
             about helping you achieve your goals."
           </p>
-          <div className="dwonloadBtn button-about-animation">
+          <div className="dwonloadBtn ">
             <button className="d-button downloadcvBtn">
               <a download="" href={cv}>
                 Download CV <i className="fa-solid fa-download"></i>
