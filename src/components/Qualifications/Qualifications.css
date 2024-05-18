@@ -99,7 +99,7 @@
 }
 .right-quli-animation {
   opacity: 0;
-  transform: translateX(-60%);
+  transform: translateX(-20%);
   transition: all 1s ease-in-out;
 }
 .top-quli-animation {
@@ -110,7 +110,7 @@
 }
 .left-quli-animation {
   opacity: 0;
-  transform: translateX(60%);
+  transform: translateX(20%);
   transition: all 1s ease-in-out;
   overflow: hidden;
 }

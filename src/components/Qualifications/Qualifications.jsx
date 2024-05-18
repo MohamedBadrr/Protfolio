@@ -59,11 +59,11 @@ const Qualifications = () => {
         <div className="qualifications-container container">
           <div className="qualifications-tabs ">
             <div className="qualifications-button button--flex right-quli-animation">
-              <i class="fa-solid fa-graduation-cap qualifications-icon"></i>
+              <i className="fa-solid fa-graduation-cap qualifications-icon"></i>
               Education
             </div>
             <div className="qualifications-button button--flex left-quli-animation">
-              <i class="fa-solid fa-school qualifications-icon"></i>
+              <i className="fa-solid fa-school qualifications-icon"></i>
               Courses
             </div>
           </div>
@@ -74,13 +74,13 @@ const Qualifications = () => {
                 <div className="right-quli-animation">
                   <h4 className="qualifications-title">
                     Computer Sciences{" "}
-                    <i class="fa-solid fa-building-columns icon-title"></i>
+                    <i className="fa-solid fa-building-columns icon-title"></i>
                   </h4>
                   <span className="qualifications-subtitle">
                     Helwan - University
                   </span>
                   <div className="qualifications-calender">
-                    <i class="fa-solid fa-calendar-days me-2"></i>
+                    <i className="fa-solid fa-calendar-days me-2"></i>
                     2020 - 2024
                   </div>
                 </div>
@@ -100,11 +100,11 @@ const Qualifications = () => {
 
                 <div className="left-quli-animation">
                   <h4 className="qualifications-title">
-                    Web Development <i class="fa-solid fa-globe icon-title"></i>
+                    Web Development <i className="fa-solid fa-globe icon-title"></i>
                   </h4>
                   <span className="qualifications-subtitle">Udemy</span>
                   <div className="qualifications-calender">
-                    <i class="fa-solid fa-calendar-days me-2"></i>
+                    <i className="fa-solid fa-calendar-days me-2"></i>
                     2021 - 2022
                   </div>
                 </div>
@@ -114,13 +114,13 @@ const Qualifications = () => {
               <div className="qualifications-data">
                 <div className="right-quli-animation">
                   <h4 className="qualifications-title">
-                    React Basic <i class="fa-brands fa-react react-icon"></i>
+                    React Basic <i className="fa-brands fa-react react-icon"></i>
                   </h4>
                   <span className="qualifications-subtitle">
                     Coursera [Meta]
                   </span>
                   <div className="qualifications-calender">
-                    <i class="fa-solid fa-calendar-days me-2"></i>
+                    <i className="fa-solid fa-calendar-days me-2"></i>
                     2022 - 2023
                   </div>
                 </div>
@@ -139,13 +139,13 @@ const Qualifications = () => {
 
                 <div className="left-quli-animation">
                   <h4 className="qualifications-title">
-                    React Advanced <i class="fa-brands fa-react react-icon"></i>
+                    React Advanced <i className="fa-brands fa-react react-icon"></i>
                   </h4>
                   <span className="qualifications-subtitle">
                     Coursera [meta]
                   </span>
                   <div className="qualifications-calender">
-                    <i class="fa-solid fa-calendar-days me-2"></i>
+                    <i className="fa-solid fa-calendar-days me-2"></i>
                     2022 - 2023
                   </div>
                 </div>

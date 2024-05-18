@@ -35,7 +35,7 @@ html {
 }
 .right-animated-card {
   opacity: 0;
-  transform: translateX(-70%);
+  transform: translateX(-25%);
   transition: all 0.8s ease-in-out !important;
 }
 .top-animated-card {
@@ -46,19 +46,19 @@ html {
 }
 .left-animated-card {
   opacity: 0;
-  transform: translateX(60%);
+  transform: translateX(25%);
   transition: all 0.8s ease-in-out !important;
   overflow: hidden;
 }
 .project-left-animated-card {
   opacity: 0;
-  transform: translateX(20%);
+  transform: translateX(18%);
   transition: all 0.8s ease-in-out !important;
   overflow: hidden !important;
 }
 .project-right-animated-card {
   opacity: 0;
-  transform: translateX(-20%);
+  transform: translateX(-18%);
   transition: all 0.8s ease-in-out !important;
   overflow: hidden !important;
 }

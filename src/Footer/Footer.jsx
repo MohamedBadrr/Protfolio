@@ -34,46 +34,46 @@ const Footer = () => {
   return (
     <>
       <div className="footer ">
-        <div class="coppright text-center top-animated-nav">
+        <div className="coppright text-center top-animated-nav">
           &copy; copyright{" "}
           <strong>
-            <span class="specail">Portfolio</span>
+            <span className="specail">Portfolio</span>
           </strong>{" "}
           All Rights Reseved
         </div>
-        <div class="credited text-center top-animated-nav">
+        <div className="credited text-center top-animated-nav">
           Designed By{" "}
-          <span class="me">
-            Eng: <strong class="specail">Mohamed Badr</strong>
+          <span className="me">
+            Eng: <strong className="specail">Mohamed Badr</strong>
           </span>
         </div>
-        <div class="icons text-center top-animated-nav">
+        <div className="icons text-center top-animated-nav">
           <a href="https://github.com/MohamedBadrr" target="_blank">
-            <i class="fa-brands fa-github"></i>
+            <i className="fa-brands fa-github"></i>
           </a>
           <a
             href="https://www.facebook.com/profile.php?id=100004812045596"
             target="_blank"
           >
-            <i class="fa-brands fa-facebook"></i>
+            <i className="fa-brands fa-facebook"></i>
           </a>
           <a
             href="https://www.linkedin.com/in/mohamed-badr-636804219/"
             target="_blank"
           >
-            <i class="fa-brands fa-linkedin"></i>
+            <i className="fa-brands fa-linkedin"></i>
           </a>
           <a
             href="https://www.facebook.com/profile.php?id=100004812045596"
             target="_blank"
           >
-            <i class="fa-brands fa-twitter"></i>
+            <i className="fa-brands fa-twitter"></i>
           </a>
           <a
             href="https://www.instagram.com/mohamed_bader_111/"
             target="_blank"
           >
-            <i class="fa-brands fa-instagram"></i>
+            <i className="fa-brands fa-instagram"></i>
           </a>
         </div>
       </div>

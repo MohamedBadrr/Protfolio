@@ -5,15 +5,15 @@ import "./Contanctme.css";
 
 const Contactme = () => {
   useEffect(() => {
-    const elementsLeft = document.querySelectorAll(".left-animated-card");
-    const elementRight = document.querySelectorAll(".right-animated-card ");
+    const elementsLeft = document.querySelectorAll(".left-animated-contact");
+    const elementRight = document.querySelectorAll(".right-animated-contact");
     const elementTop = document.querySelectorAll(".top-animated-card ");
-    const elementMiddle = document.querySelectorAll(".middlle-animated-card ");
+    const elementBottom = document.querySelectorAll(".bottom-animated-about");
     if (
       elementsLeft.length > 0 ||
       elementRight.length > 0 ||
       elementTop.length > 0 ||
-      elementMiddle.length > 0
+      elementBottom.length > 0
     ) {
       const options = {
         root: null,
@@ -24,9 +24,9 @@ const Contactme = () => {
       const callbacks = (entries) => {
         entries.forEach((entry) => {
           if (entry.isIntersecting) {
-            entry.target.classList.add("cards-animation");
+            entry.target.classList.add("about-animation");
           } else {
-            entry.target.classList.remove("cards-animation");
+            entry.target.classList.remove("about-animation");
           }
         });
       };
@@ -35,20 +35,20 @@ const Contactme = () => {
       elementsLeft.forEach((element) => observer.observe(element));
       elementRight.forEach((element) => observer.observe(element));
       elementTop.forEach((element) => observer.observe(element));
-      elementMiddle.forEach((element) => observer.observe(element));
+      elementBottom.forEach((element) => observer.observe(element));
 
       return () => {
         if (
           elementsLeft &&
           elementRight &&
           elementTop &&
-          elementMiddle &&
+          elementBottom &&
           observer
         ) {
           elementsLeft.forEach((element) => observer.unobserve(element));
           elementRight.forEach((element) => observer.unobserve(element));
           elementTop.forEach((element) => observer.unobserve(element));
-          elementMiddle.forEach((element) => observer.unobserve(element));
+          elementBottom.forEach((element) => observer.unobserve(element));
         }
       };
     }
@@ -93,15 +93,15 @@ const Contactme = () => {
             <h5 className="smalltiltlecontact">Let's Work together</h5>
           </div>
           <div className="data">
-            <div className="number right-animated-card">
-              <i class="fa-brands fa-whatsapp phone-icon"></i>
+            <div className="number right-animated-contact">
+              <i className="fa-brands fa-whatsapp phone-icon"></i>
               <div className="data-number">
                 <h4>Call me</h4>
                 <p>+02-0102-6049-630</p>
               </div>
             </div>
-            <div className="email left-animated-card">
-              <i class="fa-regular fa-envelope email-icon"></i>
+            <div className="email left-animated-contact">
+              <i className="fa-regular fa-envelope email-icon"></i>
               <div className="data-email">
                 <h4>Send me</h4>
                 <p type="email">badr59497@gmail.com</p>
@@ -111,10 +111,10 @@ const Contactme = () => {
           <div className="form">
             <form ref={form} onSubmit={sendEmail}>
               {alertmsg && (
-                <div class="alert alert-primary " role="alert">
+                <div className="alert alert-primary " role="alert">
                   Thank You..., I Will Receive Your Message and Text You.
                   <i
-                    class="fa-solid fa-circle-xmark"
+                    className="fa-solid fa-circle-xmark"
                     onClick={() => {
                       setAlertmsg(!alertmsg);
                     }}
@@ -123,7 +123,7 @@ const Contactme = () => {
               )}
               <div className="filed">
                 <input
-                  className="right-animated-card"
+                  className="right-animated-contact"
                   type="text"
                   name="user_name"
                   value={name}
@@ -136,7 +136,7 @@ const Contactme = () => {
               </div>
               <div className="filed">
                 <input
-                  className="left-animated-card"
+                  className="left-animated-contact"
                   type="email"
                   name="user_email"
                   value={email}
@@ -149,7 +149,7 @@ const Contactme = () => {
               </div>
               <div className="filed">
                 <input
-                  className="right-animated-card"
+                  className="right-animated-contact"
                   type="number"
                   name="user_phone"
                   placeholder=" Phone"
@@ -162,7 +162,7 @@ const Contactme = () => {
               </div>
               <div className="filed">
                 <textarea
-                  className="left-animated-card"
+                  className="left-animated-contact"
                   name="message"
                   placeholder=" Messsage"
                   value={message}
@@ -176,7 +176,7 @@ const Contactme = () => {
               <button
                 type="submit"
                 value="Send"
-                className="d-button text-white px-4 py-1 my-2 contact-button"
+                className="d-button text-white px-4 py-1 my-2 contact-button bottom-animated-about"
               >
                 Send
               </button>

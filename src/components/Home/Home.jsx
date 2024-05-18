@@ -124,11 +124,11 @@ const Home = () => {
                       development knowledge.
                     </p>
                     <div className='icons'>
-                    <a href="https://www.linkedin.com/in/mohamed-badr-636804219/"><i class="fa-brands fa-linkedin-in mx-2"></i></a>
-                    <a href="https://github.com/MohamedBadrr"><i class="fa-brands fa-github "></i></a>
-                    <a href="https://www.facebook.com/profile.php?id=100004812045596"><i class="fa-brands fa-facebook-f mx-2 "></i></a>
-                    <a href="https://www.instagram.com/mohamed_bader_111/?hl=ar"><i class="fa-brands fa-instagram" ></i></a>
-                    <a href="https://x.com/Mu7amed_Badr?t=aTxUqsddnxGHeVupL3Cbjg&s=08 "><i class="fa-brands fa-twitter mx-2 "></i></a>
+                    <a href="https://www.linkedin.com/in/mohamed-badr-636804219/"><i className="fa-brands fa-linkedin-in mx-2"></i></a>
+                    <a href="https://github.com/MohamedBadrr"><i className="fa-brands fa-github "></i></a>
+                    <a href="https://www.facebook.com/profile.php?id=100004812045596"><i className="fa-brands fa-facebook-f mx-2 "></i></a>
+                    <a href="https://www.instagram.com/mohamed_bader_111/?hl=ar"><i className="fa-brands fa-instagram" ></i></a>
+                    <a href="https://x.com/Mu7amed_Badr?t=aTxUqsddnxGHeVupL3Cbjg&s=08 "><i className="fa-brands fa-twitter mx-2 "></i></a>
                     </div>
                     <button className='d-button text-white contact-btn'> <a href="#CONTACT" className='contact-mee-link'>Contact Me</a></button> 
                 </div>

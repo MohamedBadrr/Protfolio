@@ -63,16 +63,16 @@ const Skills = () => {
                   className="skills-header"
                   onClick={() => setOpenlist1(!openlist1)}
                 >
-                  <i class="fa-solid fa-globe fa-2x skills-icon"></i>
+                  <i className="fa-solid fa-globe fa-2x skills-icon"></i>
                   <div>
                     <h4 className="skills-tiltle">Frontend Development</h4>
                     <span className="skills-subtitle"> more than 2 years</span>
                   </div>
                   {openlist1 && (
-                    <i class="fa-solid fa-angle-down skills-arrow"></i>
+                    <i className="fa-solid fa-angle-down skills-arrow"></i>
                   )}
                   {!openlist1 && (
-                    <i class="fa-solid fa-angle-up skills-arrow"></i>
+                    <i className="fa-solid fa-angle-up skills-arrow"></i>
                   )}
                 </div>
                 {openlist1 && (
@@ -145,7 +145,7 @@ const Skills = () => {
                   className="skills-header"
                   onClick={() => setOpenlist3(!openlist3)}
                 >
-                  <i class="fa-solid fa-toolbox fa-2x skills-icon"></i>
+                  <i className="fa-solid fa-toolbox fa-2x skills-icon"></i>
                   <div>
                     <h4 className="skills-tiltle">Tools </h4>
                     <span className="skills-subtitle">
@@ -153,10 +153,10 @@ const Skills = () => {
                     </span>
                   </div>
                   {openlist3 && (
-                    <i class="fa-solid fa-angle-down skills-arrow"></i>
+                    <i className="fa-solid fa-angle-down skills-arrow"></i>
                   )}
                   {!openlist3 && (
-                    <i class="fa-solid fa-angle-up skills-arrow"></i>
+                    <i className="fa-solid fa-angle-up skills-arrow"></i>
                   )}
                 </div>
                 {openlist3 && (
@@ -210,16 +210,16 @@ const Skills = () => {
                   className="skills-header"
                   onClick={() => setOpenlist2(!openlist2)}
                 >
-                  <i class="fa-solid fa-database fa-2x skills-icon"></i>
+                  <i className="fa-solid fa-database fa-2x skills-icon"></i>
                   <div>
                     <h4 className="skills-tiltle">Backend Development</h4>
                     <span className="skills-subtitle">Comming </span>
                   </div>
                   {openlist2 && (
-                    <i class="fa-solid fa-angle-down skills-arrow"></i>
+                    <i className="fa-solid fa-angle-down skills-arrow"></i>
                   )}
                   {!openlist2 && (
-                    <i class="fa-solid fa-angle-up skills-arrow"></i>
+                    <i className="fa-solid fa-angle-up skills-arrow"></i>
                   )}
                 </div>
                 {openlist2 && (

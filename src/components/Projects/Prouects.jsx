@@ -98,15 +98,15 @@ const Prouects = () => {
           <div className="row default-projects">
             <div className="col-md-4 col-sm-6 mb-5 project-right-animated-card">
               <div className="project">
-                <div class="card">
+                <div className="card">
                   <img
                     src={movies}
-                    class="card-img-top w-100 card-image"
+                    className="card-img-top w-100 card-image"
                     alt="..."
                   />
-                  <div class="card-body">
-                    <h5 class="card-title text-center">Top-Movies</h5>
-                    <p class="card-text">
+                  <div className="card-body">
+                    <h5 className="card-title text-center">Top-Movies</h5>
+                    <p className="card-text">
                       Movie app contains ( movies , Tvshow , most famous people
                       ) each one of them with it's own data, get all data from
                       external api.
@@ -118,13 +118,13 @@ const Prouects = () => {
                       <a
                         href="https://mohamedbadrr.github.io/Top-Movies/"
                         target="_blank"
-                        class="d-button px-4 py-2 mx-2 mb-3"
+                        className="d-button px-4 py-2 mx-2 mb-3"
                       >
                         Demo
                       </a>
                       <a
                         href="https://github.com/MohamedBadrr/Top-Movies"
-                        class="d-button px-3 py-2 mx-2 mb-3"
+                        className="d-button px-3 py-2 mx-2 mb-3"
                       >
                         Code
                       </a>
@@ -136,15 +136,15 @@ const Prouects = () => {
 
             <div className="col-md-4 col-sm-6 middlle-animated-card">
               <div className="project">
-                <div class="card">
+                <div className="card">
                   <img
                     src={resto}
-                    class="card-img-top w-100 card-image"
+                    className="card-img-top w-100 card-image"
                     alt="..."
                   />
-                  <div class="card-body">
-                    <h5 class="card-title text-center">Resto</h5>
-                    <p class="card-text">
+                  <div className="card-body">
+                    <h5 className="card-title text-center">Resto</h5>
+                    <p className="card-text">
                       Resto is a Resturant contains many pages and you can book
                       a table or make an order and your order is saved in your
                       chart.{" "}
@@ -156,14 +156,14 @@ const Prouects = () => {
                       <a
                         href="https://mohamedbadrr.github.io/Resturant-Resto/"
                         target="_blank"
-                        class="d-button px-3 py-2 mx-2 mb-3"
+                        className="d-button px-3 py-2 mx-2 mb-3"
                       >
                         Demo
                       </a>
                       <a
                         href="https://github.com/MohamedBadrr/Resturant-Resto"
                         target="_blank"
-                        class="d-button px-3 py-2 mx-2 mb-3"
+                        className="d-button px-3 py-2 mx-2 mb-3"
                       >
                         Code
                       </a>
@@ -175,15 +175,15 @@ const Prouects = () => {
 
             <div className="mb-5 col-md-4 col-sm-6 project-left-animated-card">
               <div className="project ">
-                <div class="card ">
+                <div className="card ">
                   <img
                     src={weather}
-                    class="card-img-top w-100 card-image"
+                    className="card-img-top w-100 card-image"
                     alt="..."
                   />
-                  <div class="card-body">
-                    <h5 class="card-title text-center">Weather-App</h5>
-                    <p class="card-text">
+                  <div className="card-body">
+                    <h5 className="card-title text-center">Weather-App</h5>
+                    <p className="card-text">
                       weather App : you enter any country or any city and the
                       app send you the weather in this place from an external
                       api.
@@ -195,13 +195,13 @@ const Prouects = () => {
                       <a
                         href="https://mohamedbadrr.github.io/Weather-APP/"
                         target="_blank"
-                        class="d-button px-4 py-2 mx-2 mb-3"
+                        className="d-button px-4 py-2 mx-2 mb-3"
                       >
                         Demo
                       </a>
                       <a
                         href="https://github.com/MohamedBadrr/Weather-APP"
-                        class="d-button px-3 py-2 mx-2 mb-3"
+                        className="d-button px-3 py-2 mx-2 mb-3"
                       >
                         Code
                       </a>
@@ -213,15 +213,15 @@ const Prouects = () => {
 
             <div className=" mb-5 col-md-4  col-sm-6 project-right-animated-card">
               <div className="project">
-                <div class="card">
+                <div className="card">
                   <img
                     src={edara}
-                    class="card-img-top w-100 card-image"
+                    className="card-img-top w-100 card-image"
                     alt="..."
                   />
-                  <div class="card-body">
-                    <h5 class="card-title text-center">Edara-Dashboard</h5>
-                    <p class="card-text">
+                  <div className="card-body">
+                    <h5 className="card-title text-center">Edara-Dashboard</h5>
+                    <p className="card-text">
                       This is a full-stack project with ( React js & Node js ).
                       it manages products , warehouses , supervisors and
                       contains 2 users [ Admin , Subervisor ].
@@ -232,7 +232,7 @@ const Prouects = () => {
                     <div className="text-center">
                       <a
                         href="https://github.com/MohamedBadrr/Edara-Dashboard"
-                        class="d-button px-3 py-2 mx-2 mb-3"
+                        className="d-button px-3 py-2 mx-2 mb-3"
                       >
                         Code
                       </a>
@@ -244,15 +244,15 @@ const Prouects = () => {
 
             <div className=" mb-5 col-md-4  col-sm-6 middlle-animated-card">
               <div className="project">
-                <div class="card">
+                <div className="card">
                   <img
                     src={php}
-                    class="card-img-top w-100 card-image"
+                    className="card-img-top w-100 card-image"
                     alt="..."
                   />
-                  <div class="card-body">
-                    <h5 class="card-title text-center">E-Commerce</h5>
-                    <p class="card-text">
+                  <div className="card-body">
+                    <h5 className="card-title text-center">E-Commerce</h5>
+                    <p className="card-text">
                       This is a full-stack project ( external templet & php
                       &mysql ). it manages products , categories ,and the app
                       should rate the products.{" "}
@@ -264,7 +264,7 @@ const Prouects = () => {
                       <a
                         href="https://github.com/MohamedBadrr/E-commerce-App"
                         target="_blank"
-                        class="d-button px-3 py-2 mx-2 mb-3"
+                        className="d-button px-3 py-2 mx-2 mb-3"
                       >
                         Code
                       </a>
@@ -276,15 +276,15 @@ const Prouects = () => {
 
             <div className="col-md-4  col-sm-6 mb-5 project-left-animated-card">
               <div className="project">
-                <div class="card">
+                <div className="card">
                   <img
                     src={elec}
-                    class="card-img-top w-100 card-image"
+                    className="card-img-top w-100 card-image"
                     alt="..."
                   />
-                  <div class="card-body">
-                    <h5 class="card-title text-center">Electronic - Shop</h5>
-                    <p class="card-text">
+                  <div className="card-body">
+                    <h5 className="card-title text-center">Electronic - Shop</h5>
+                    <p className="card-text">
                       simple e-commerce app contian may pages .
                     </p>
                     <p className="card-text-2">#html #css #bootstrap </p>
@@ -292,14 +292,14 @@ const Prouects = () => {
                       <a
                         href="https://mohamedbadrr.github.io/Electronic-shop-website/"
                         target="_blank"
-                        class="d-button px-3 py-2 mx-2 mb-3"
+                        className="d-button px-3 py-2 mx-2 mb-3"
                       >
                         Demo
                       </a>
                       <a
                         href="https://github.com/MohamedBadrr/Electronic-shop-website"
                         target="_blank"
-                        class="d-button px-3 py-2 mx-2 mb-3"
+                        className="d-button px-3 py-2 mx-2 mb-3"
                       >
                         Code
                       </a>
@@ -312,17 +312,17 @@ const Prouects = () => {
 
           <div className=" row my-5 carsool-projects">
             <OwlCarousel className="owl-theme" {...options}>
-              <div class="item text-center">
+              <div className="item text-center">
                 <div className="project">
-                  <div class="card">
+                  <div className="card">
                     <img
                       src={movies}
-                      class="card-img-top w-100 card-image"
+                      className="card-img-top w-100 card-image"
                       alt="..."
                     />
-                    <div class="card-body">
-                      <h5 class="card-title text-center">Top-Movies</h5>
-                      <p class="card-text">
+                    <div className="card-body">
+                      <h5 className="card-title text-center">Top-Movies</h5>
+                      <p className="card-text">
                         Movie app contains ( movies , Tvshow , most famous
                         people ) each one of them with it's own data, get all
                         data from external api.
@@ -334,13 +334,13 @@ const Prouects = () => {
                         <a
                           href="https://mohamedbadrr.github.io/Top-Movies/"
                           target="_blank"
-                          class="d-button px-4 py-2 mx-2 mb-3"
+                          className="d-button px-4 py-2 mx-2 mb-3"
                         >
                           Demo
                         </a>
                         <a
                           href="https://github.com/MohamedBadrr/Top-Movies"
-                          class="d-button px-3 py-2 mx-2 mb-3"
+                          className="d-button px-3 py-2 mx-2 mb-3"
                         >
                           Code
                         </a>
@@ -349,17 +349,17 @@ const Prouects = () => {
                   </div>
                 </div>
               </div>
-              <div class="item text-center">
+              <div className="item text-center">
                 <div className="project">
-                  <div class="card">
+                  <div className="card">
                     <img
                       src={resto}
-                      class="card-img-top w-100 card-image"
+                      className="card-img-top w-100 card-image"
                       alt="..."
                     />
-                    <div class="card-body">
-                      <h5 class="card-title text-center">Resto</h5>
-                      <p class="card-text">
+                    <div className="card-body">
+                      <h5 className="card-title text-center">Resto</h5>
+                      <p className="card-text">
                         Resto is a Resturant contains many pages and you can
                         book a table or make an order and your order is saved in
                         your chart.{" "}
@@ -371,14 +371,14 @@ const Prouects = () => {
                         <a
                           href="https://mohamedbadrr.github.io/Resturant-Resto/"
                           target="_blank"
-                          class="d-button px-3 py-2 mx-2 mb-3"
+                          className="d-button px-3 py-2 mx-2 mb-3"
                         >
                           Demo
                         </a>
                         <a
                           href="https://github.com/MohamedBadrr/Resturant-Resto"
                           target="_blank"
-                          class="d-button px-3 py-2 mx-2 mb-3"
+                          className="d-button px-3 py-2 mx-2 mb-3"
                         >
                           Code
                         </a>
@@ -387,17 +387,17 @@ const Prouects = () => {
                   </div>
                 </div>
               </div>
-              <div class="item text-center">
+              <div className="item text-center">
                 <div className="project">
-                  <div class="card">
+                  <div className="card">
                     <img
                       src={weather}
-                      class="card-img-top w-100 card-image"
+                      className="card-img-top w-100 card-image"
                       alt="..."
                     />
-                    <div class="card-body">
-                      <h5 class="card-title text-center">Weather-App</h5>
-                      <p class="card-text">
+                    <div className="card-body">
+                      <h5 className="card-title text-center">Weather-App</h5>
+                      <p className="card-text">
                         weather App : you enter any country or any city and the
                         app send you the weather in this place from an external
                         api.
@@ -409,13 +409,13 @@ const Prouects = () => {
                         <a
                           href="https://mohamedbadrr.github.io/Weather-APP/"
                           target="_blank"
-                          class="d-button px-4 py-2 mx-2 mb-3"
+                          className="d-button px-4 py-2 mx-2 mb-3"
                         >
                           Demo
                         </a>
                         <a
                           href="https://github.com/MohamedBadrr/Weather-APP"
-                          class="d-button px-3 py-2 mx-2 mb-3"
+                          className="d-button px-3 py-2 mx-2 mb-3"
                         >
                           Code
                         </a>
@@ -424,17 +424,17 @@ const Prouects = () => {
                   </div>
                 </div>
               </div>
-              <div class="item text-center">
+              <div className="item text-center">
                 <div className="project">
-                  <div class="card">
+                  <div className="card">
                     <img
                       src={edara}
-                      class="card-img-top w-100 card-image"
+                      className="card-img-top w-100 card-image"
                       alt="..."
                     />
-                    <div class="card-body">
-                      <h5 class="card-title text-center">Edara-Dashboard</h5>
-                      <p class="card-text">
+                    <div className="card-body">
+                      <h5 className="card-title text-center">Edara-Dashboard</h5>
+                      <p className="card-text">
                         This is a full-stack project with ( React js & Node js
                         ). it manages products , warehouses , supervisors and
                         contains 2 users [ Admin , Subervisor ].
@@ -445,7 +445,7 @@ const Prouects = () => {
                       <div className="text-center">
                         <a
                           href="https://github.com/MohamedBadrr/Edara-Dashboard"
-                          class="d-button px-3 py-2 mx-2 mb-3"
+                          className="d-button px-3 py-2 mx-2 mb-3"
                         >
                           Code
                         </a>
@@ -454,17 +454,17 @@ const Prouects = () => {
                   </div>
                 </div>
               </div>
-              <div class="item text-center">
+              <div className="item text-center">
                 <div className="project">
-                  <div class="card">
+                  <div className="card">
                     <img
                       src={php}
-                      class="card-img-top w-100 card-image"
+                      className="card-img-top w-100 card-image"
                       alt="..."
                     />
-                    <div class="card-body">
-                      <h5 class="card-title text-center">E-Commerce</h5>
-                      <p class="card-text">
+                    <div className="card-body">
+                      <h5 className="card-title text-center">E-Commerce</h5>
+                      <p className="card-text">
                         This is a full-stack project ( external templet & php
                         &mysql ). it manages products , categories ,and the app
                         should rate the products.{" "}
@@ -476,7 +476,7 @@ const Prouects = () => {
                         <a
                           href="https://github.com/MohamedBadrr/E-commerce-App"
                           target="_blank"
-                          class="d-button px-3 py-2 mx-2 mb-3"
+                          className="d-button px-3 py-2 mx-2 mb-3"
                         >
                           Code
                         </a>
@@ -485,17 +485,17 @@ const Prouects = () => {
                   </div>
                 </div>
               </div>
-              <div class="item text-center">
+              <div className="item text-center">
                 <div className="project">
-                  <div class="card">
+                  <div className="card">
                     <img
                       src={elec}
-                      class="card-img-top w-100 card-image"
+                      className="card-img-top w-100 card-image"
                       alt="..."
                     />
-                    <div class="card-body">
-                      <h5 class="card-title text-center">Electronic - Shop</h5>
-                      <p class="card-text">
+                    <div className="card-body">
+                      <h5 className="card-title text-center">Electronic - Shop</h5>
+                      <p className="card-text">
                         simple e-commerce app contian may pages .
                       </p>
                       <p className="card-text-2">#html #css #bootstrap </p>
@@ -503,14 +503,14 @@ const Prouects = () => {
                         <a
                           href="https://mohamedbadrr.github.io/Electronic-shop-website/"
                           target="_blank"
-                          class="d-button px-3 py-2 mx-2 mb-3"
+                          className="d-button px-3 py-2 mx-2 mb-3"
                         >
                           Demo
                         </a>
                         <a
                           href="https://github.com/MohamedBadrr/Electronic-shop-website"
                           target="_blank"
-                          class="d-button px-3 py-2 mx-2 mb-3"
+                          className="d-button px-3 py-2 mx-2 mb-3"
                         >
                           Code
                         </a>

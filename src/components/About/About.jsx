@@ -59,7 +59,7 @@ const About = () => {
           <div className="dwonloadBtn button-about-animation">
             <button className="d-button downloadcvBtn">
               <a download="" href={cv}>
-                Download CV <i class="fa-solid fa-download"></i>
+                Download CV <i className="fa-solid fa-download"></i>
               </a>
             </button>
           </div>
