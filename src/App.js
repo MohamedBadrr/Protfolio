@@ -12,13 +12,10 @@ import Skills from './components/Skills/Skills';
 function App() {
   return (
     <div className="App">
-
       <section>
       <Header />
       </section>
       
-
-
       <section id='HOME'>
       <Home />
       </section>

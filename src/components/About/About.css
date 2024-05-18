@@ -1,262 +1,269 @@
-.aboutData{
-    margin-left: 100px !important;
-    position: relative;
-    height: 50vh;
+.aboutData {
+  margin-left: 100px !important;
+  position: relative;
+  height: 50vh;
 }
-.aboutHeader{
-    /* text-align: center; */
-    font-weight: bold;
-    /* color: var(--first-color); */
-    color: white;
-    font-size: 65px;
-    text-shadow: 2px 2px 8px var(--first-color);
+.aboutHeader {
+  font-weight: bold;
+
+  color: white;
+  font-size: 65px;
+  text-shadow: 2px 2px 8px var(--first-color);
 }
-.aboutData h4{
-    margin-left: 10px ;
-    margin-bottom: -10px;
-    color: var(--first-color);
+.aboutData h4 {
+  margin-left: 10px;
+  margin-bottom: -10px;
+  color: var(--first-color);
 }
-.aboutData p{
-    width: 75%;
-    font-size: 18px;
-    font-family: 'Segoe UI light';
-    font-weight: 500 !important;
-    color: #cececeee !important;
-    margin-left: 2px ;
-    margin-bottom: 5px;
-    letter-spacing: .5px;
-    color: var(--first-color);
+.aboutData p {
+  width: 75%;
+  font-size: 18px;
+  font-family: "Segoe UI light";
+  font-weight: 500 !important;
+  color: #cececeee !important;
+  margin-left: 2px;
+  margin-bottom: 5px;
+  letter-spacing: 0.5px;
+  color: var(--first-color);
 }
-.dwonloadBtn{
-    /* margin: 30px  auto !important; */
-    width: 90%;
-    display: flex;
-    justify-content: end;
-    padding-top: 30px;
+.dwonloadBtn {
+  width: 90%;
+  display: flex;
+  justify-content: end;
+  padding-top: 30px;
 }
 .downloadcvBtn {
-   
+  color: white;
+  padding: 6px 13px;
+}
+.downloadcvBtn i {
+  background-color: transparent;
+}
+.downloadcvBtn a {
+  background-color: transparent;
+  color: white;
+  text-decoration: none;
+}
+.about-animation {
+  opacity: 0;
+  transform: translateX(-50%);
+  transition: all 0.8s ease-in-out;
+}
+
+.button-about-animation {
+  opacity: 0;
+  transform: translateY(50%);
+  transition: all 0.8s ease-in-out;
+}
+.animation-about {
+  opacity: 1;
+  transform: translateX(0);
+  transform: translateY(0);
+}
+
+@media (min-width: 100px) and (max-width: 575.98px) {
+  .aboutData {
+    margin-left: 10px !important;
+    position: relative;
+    margin-top: -100px;
+    height: fit-content;
+    margin-bottom: 130px;
+  }
+  .aboutHeader {
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    font-size: 45px;
+    margin-right: 15px;
+    text-shadow: 2px 2px 8px var(--first-color);
+    margin-bottom: 30px;
+  }
+  .aboutData h4 {
+    margin-left: 10px;
+    text-align: center;
+    margin-bottom: -10px;
+    margin-right: 20px;
+    color: var(--first-color);
+  }
+  .aboutData p {
+    width: 90%;
+    font-size: 19px;
+    font-family: "Segoe UI light";
+    font-weight: 500 !important;
+    color: #cececeee !important;
+    margin-left: 10px;
+    margin-bottom: 5px;
+    margin-top: 10px !important;
+    letter-spacing: 0.5px;
+    color: var(--first-color);
+  }
+  .downloadcvBtn {
     color: white;
     padding: 6px 13px;
+  }
+}
 
-}
-.downloadcvBtn i{
-    background-color: transparent;
-}
-.downloadcvBtn a{
-    background-color: transparent;
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .aboutData {
+    margin-left: 10px !important;
+    position: relative;
+    margin-top: -100px;
+    height: fit-content;
+    margin-bottom: 130px;
+  }
+  .aboutHeader {
+    text-align: center;
+    font-weight: bold;
     color: white;
-    text-decoration: none;
+    font-size: 45px;
+    margin-right: 15px;
+    text-shadow: 2px 2px 8px var(--first-color);
+    margin-bottom: 30px;
+  }
+  .aboutData h4 {
+    margin-left: 10px;
+    text-align: center;
+    margin-bottom: -10px;
+    margin-right: 20px;
+    color: var(--first-color);
+  }
+  .aboutData p {
+    width: 90%;
+    font-size: 19px;
+    font-family: "Segoe UI light";
+    font-weight: 500 !important;
+    color: #cececeee !important;
+    margin-left: 10px;
+    margin-bottom: 5px;
+    margin-top: 10px !important;
+    letter-spacing: 0.5px;
+    color: var(--first-color);
+  }
+  .downloadcvBtn {
+    color: white;
+    padding: 6px 13px;
+  }
 }
 
-  /* Extra small devices (portrait phones, less than 576px) */
-  @media (min-width: 100px) and (max-width: 575.98px) {
-    .aboutData{
-        margin-left: 10px !important;
-        position: relative;
-        margin-top: -100px;
-        height: fit-content;
-        margin-bottom: 130px;
-    }
-    .aboutHeader{
-        text-align: center;
-        font-weight: bold;
-        color: white;
-        font-size: 45px;
-        margin-right: 15px;
-        text-shadow: 2px 2px 8px var(--first-color);
-        margin-bottom: 30px;
-    }
-    .aboutData h4{
-        margin-left: 10px ;
-        text-align: center;
-        margin-bottom: -10px;
-        margin-right: 20px;
-        color: var(--first-color);
-    }
-    .aboutData p{
-        width: 90%;
-        font-size: 19px;
-        font-family: 'Segoe UI light';
-        font-weight: 500 !important;
-        color: #cececeee !important;
-        margin-left: 10px ;
-        margin-bottom: 5px;
-        margin-top: 10px !important;
-        letter-spacing: .5px;
-        color: var(--first-color);
-    }
-    .downloadcvBtn {
-        color: white;
-        padding: 6px 13px;
-    }
-}
-
-/* // Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) and (max-width: 767.98px) { 
-    .aboutData{
-        margin-left: 10px !important;
-        position: relative;
-        margin-top: -100px;
-        height: fit-content;
-        margin-bottom: 130px;
-    }
-    .aboutHeader{
-        text-align: center;
-        font-weight: bold;
-        color: white;
-        font-size: 45px;
-        margin-right: 15px;
-        text-shadow: 2px 2px 8px var(--first-color);
-        margin-bottom: 30px;
-    }
-    .aboutData h4{
-        margin-left: 10px ;
-        text-align: center;
-        margin-bottom: -10px;
-        margin-right: 20px;
-        color: var(--first-color);
-    }
-    .aboutData p{
-        width: 90%;
-        font-size: 19px;
-        font-family: 'Segoe UI light';
-        font-weight: 500 !important;
-        color: #cececeee !important;
-        margin-left: 10px ;
-        margin-bottom: 5px;
-        margin-top: 10px !important;
-        letter-spacing: .5px;
-        color: var(--first-color);
-    }
-    .downloadcvBtn {
-        color: white;
-        padding: 6px 13px;
-    }
- }
-
-/* // Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991.98px) {
-    .aboutData{
-        margin-left: 10px !important;
-        position: relative;
-        margin-top: -100px;
-        height: fit-content;
-        margin-bottom: 130px;
-    }
-    .aboutHeader{
-        text-align: center;
-        font-weight: bold;
-        color: white;
-        font-size: 45px;
-        margin-right: 15px;
-        text-shadow: 2px 2px 8px var(--first-color);
-        margin-bottom: 30px;
-    }
-    .aboutData h4{
-        margin-left: 10px ;
-        text-align: center;
-        margin-bottom: -10px;
-        margin-right: 20px;
-        color: var(--first-color);
-    }
-    .aboutData p{
-        width: 100%;
-        font-size: 19px;
-        font-family: 'Segoe UI light';
-        font-weight: 500 !important;
-        color: #cececeee !important;
-        margin-left: 10px ;
-        margin-bottom: 5px;
-        margin-top: 10px !important;
-        letter-spacing: .5px;
-        color: var(--first-color);
-    }
-    .dwonloadBtn{
-        width: 100%;
-    }
-    .downloadcvBtn {
-        color: white;
-        padding: 6px 13px;
-    }
- }
+  .aboutData {
+    margin-left: 10px !important;
+    position: relative;
+    margin-top: -100px;
+    height: fit-content;
+    margin-bottom: 130px;
+  }
+  .aboutHeader {
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    font-size: 45px;
+    margin-right: 15px;
+    text-shadow: 2px 2px 8px var(--first-color);
+    margin-bottom: 30px;
+  }
+  .aboutData h4 {
+    margin-left: 10px;
+    text-align: center;
+    margin-bottom: -10px;
+    margin-right: 20px;
+    color: var(--first-color);
+  }
+  .aboutData p {
+    width: 100%;
+    font-size: 19px;
+    font-family: "Segoe UI light";
+    font-weight: 500 !important;
+    color: #cececeee !important;
+    margin-left: 10px;
+    margin-bottom: 5px;
+    margin-top: 10px !important;
+    letter-spacing: 0.5px;
+    color: var(--first-color);
+  }
+  .dwonloadBtn {
+    width: 100%;
+  }
+  .downloadcvBtn {
+    color: white;
+    padding: 6px 13px;
+  }
+}
 
-/* // Large devices (desktops, 992px and up) */
 @media (min-width: 992px) and (max-width: 1199.98px) {
-    .aboutData{
-        margin-left: 10px !important;
-        position: relative;
-        margin-top: -100px;
-        height: fit-content;
-        margin-bottom: 130px;
-    }
-    .aboutHeader{
-        text-align: center;
-        font-weight: bold;
-        color: white;
-        font-size: 45px;
-        margin-right: 15px;
-        text-shadow: 2px 2px 8px var(--first-color);
-        margin-bottom: 30px;
-    }
-    .aboutData h4{
-        margin-left: 10px ;
-        text-align: center;
-        margin-bottom: -10px;
-        margin-right: 20px;
-        color: var(--first-color);
-    }
-    .aboutData p{
-        width: 90%;
-        font-size: 23px;
-        font-family: 'Segoe UI light';
-        font-weight: 500 !important;
-        color: #cececeee !important;
-        margin-left: 10px ;
-        margin-bottom: 5px;
-        margin-top: 10px !important;
-        letter-spacing: .5px;
-        color: var(--first-color);
-    }
-    .dwonloadBtn{
-        width: 95%;
-    }
-    .downloadcvBtn {
-        color: white;
-        padding: 6px 13px;
-    }
- }
+  .aboutData {
+    margin-left: 10px !important;
+    position: relative;
+    margin-top: -100px;
+    height: fit-content;
+    margin-bottom: 130px;
+  }
+  .aboutHeader {
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    font-size: 45px;
+    margin-right: 15px;
+    text-shadow: 2px 2px 8px var(--first-color);
+    margin-bottom: 30px;
+  }
+  .aboutData h4 {
+    margin-left: 10px;
+    text-align: center;
+    margin-bottom: -10px;
+    margin-right: 20px;
+    color: var(--first-color);
+  }
+  .aboutData p {
+    width: 90%;
+    font-size: 23px;
+    font-family: "Segoe UI light";
+    font-weight: 500 !important;
+    color: #cececeee !important;
+    margin-left: 10px;
+    margin-bottom: 5px;
+    margin-top: 10px !important;
+    letter-spacing: 0.5px;
+    color: var(--first-color);
+  }
+  .dwonloadBtn {
+    width: 95%;
+  }
+  .downloadcvBtn {
+    color: white;
+    padding: 6px 13px;
+  }
+}
 
-/* // Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
-    .aboutData{
-        margin-left: 10px !important;
-        position: relative;
-        margin-top: -100px;
-        height: fit-content;
-        margin-bottom: 130px;
-    }
-
-
-    .aboutData p{
-        width: 90%;
-        font-size: 23px;
-        font-family: 'Segoe UI light';
-        font-weight: 500 !important;
-        color: #cececeee !important;
-        margin-left: 0px ;
-        margin-bottom: 5px;
-        margin-top: 10px !important;
-        letter-spacing: .5px;
-        color: var(--first-color);
-    }
-    .dwonloadBtn{
-        width: 95%;
-    }
-    .downloadcvBtn {
-        color: white;
-        padding: 6px 13px;
-    }
+  .aboutData {
+    margin-left: 10px !important;
+    position: relative;
+    margin-top: -100px;
+    height: fit-content;
+    margin-bottom: 130px;
   }
 
-@media (max-width: 391px){}
+  .aboutData p {
+    width: 90%;
+    font-size: 23px;
+    font-family: "Segoe UI light";
+    font-weight: 500 !important;
+    color: #cececeee !important;
+    margin-left: 0px;
+    margin-bottom: 5px;
+    margin-top: 10px !important;
+    letter-spacing: 0.5px;
+    color: var(--first-color);
+  }
+  .dwonloadBtn {
+    width: 95%;
+  }
+  .downloadcvBtn {
+    color: white;
+    padding: 6px 13px;
+  }
+}
+
+@media (max-width: 391px) {
+}

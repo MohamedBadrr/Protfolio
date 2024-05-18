@@ -1,16 +1,51 @@
 
-import React from 'react';
+import React, { useEffect } from 'react';
 import "../Home/Home.css";
 import profileImg from "../../imgs/profile2.png";
-import HeroBgAnimation from '../HeroBgAnimation/Section';
+
 import { Typed } from 'react-typed';
 import { useTypewriter , Cursor, Typewriter } from 'react-simple-typewriter';
 
 const Home = () => {
+
+  useEffect(() => {
+    const elementsLeft = document.querySelectorAll(".home-animation");
+    const elementsappear = document.querySelectorAll(".banner-animation");
+    if (elementsLeft.length > 0 || elementsappear.length ) {
+      const options = {
+        root: null,
+        rootMargin: "0px",
+        threshold: 0.4,
+      };
+
+      const callbacks = (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add("animation-home");
+          } else {
+            entry.target.classList.remove("animation-home");
+          }
+        });
+      };
+
+      const observer = new IntersectionObserver(callbacks, options);
+
+      elementsLeft.forEach((element) => observer.observe(element));
+      elementsappear.forEach((element) => observer.observe(element));
+
+      return () => {
+        if (elementsLeft && elementsappear && observer) {
+          elementsLeft.forEach((element) => observer.unobserve(element));
+          elementsappear.forEach((element) => observer.unobserve(element));
+        }
+      };
+    }
+  }, []);
+
+
   const { text } = useTypewriter({
     words: ['Front-end Developer', 'Full-stack Developer'],
     loop: {},
-    // typeSpeed:10 // Loop indefinitely
   });
   return (
     <section className='home'>
@@ -73,8 +108,8 @@ const Home = () => {
 
 
           <div className='row fix-row-data'>
-              <div className='col-md-7'>
-                <div className='home-data'>
+              <div className='col-md-7 home-animation'>
+                <div className='home-data '>
                     <h1><span className='hi'>Hi</span>, I'am <span className='specail'>Mohamed</span> </h1>
                     <div className='titles'> <Typewriter
                     words={['Front-end Developer', 'Full-stack Developer']}
@@ -99,8 +134,7 @@ const Home = () => {
                 </div>
               </div>
               
-              <div className='col-md-5 '>
-              {/* <div className='animation'><HeroBgAnimation /></div> */}
+              <div className='col-md-5 banner-animation'>
                 <div className='fix-fullImg'>
                 <div className='home-img'>
                   <svg className='home-blob' viewBox="0 0 200 187" xmlns="http://www.w3.org/2000/svg" >
@@ -118,7 +152,6 @@ const Home = () => {
                         <image className='home-img mx-auto' href={profileImg}/>
                     </g>
                 </svg>
-                
                   </div>
                 </div>
               </div>

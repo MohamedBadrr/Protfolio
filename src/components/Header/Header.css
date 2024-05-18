@@ -1,43 +1,41 @@
+.top-animated-nav {
+  opacity: 0;
+  transform: translateY(-80%);
+  transition: all 0.4s ease-in-out !important;
+}
+.nav-animation {
+  opacity: 1;
+  transform: translateX(0%);
+  transform: translateY(0);
+  overflow-x: hidden !important  ;
+}
+.nav {
+  background-color: var(--body-color) !important;
+}
+.navbar-brand {
+  color: var(--first-color) !important;
+  background-color: transparent !important;
+}
+.NavColor {
+  color: white !important;
+  transition: 0.9s all !important;
+  margin: 0px 8px;
+  font-weight: 600 !important;
+  font-family: "Times New Roman";
+}
+.NavColor:hover {
+  color: var(--first-color) !important;
+}
+.navbar {
+  border-bottom: 1px solid var(--first-color);
+}
+.nav-button a,
+.nav-button i {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
 
-
-.active{
-    color: red !important;
-    cursor: pointer; 
-}
-.nav{
-    background-color:  var(--body-color) !important;
-}
-.navbar-brand{
-    color: var(--first-color) !important;
-    background-color: transparent !important;
-}
-.NavColor{
-    color: white !important;
-    transition: .9s all !important;
-    margin: 0px 8px;
-    font-weight: 600 !important;
-    font-family: 'Times New Roman';
-    /* background-color: transparent !important; */
-
-}
-.NavColor:hover{
-    color: var(--first-color) !important;
-}
-.navbar{
-    /* width: 100; */
-    border-bottom: 1px solid var(--first-color);
-    /* background-color: transparent !important; */
-    /* position: fixed !important; */
-    /* z-index: 999999 !important; */
-}
-.nav-button a , .nav-button i{
-    color: white;
-    background-color: transparent;
-    text-decoration: none;
-}
-.nav-link {
-    /* background-color: transparent !important; */
-}
-.navbar-toggler{
-    margin-bottom: 3px !important;
+.navbar-toggler {
+  margin-bottom: 3px !important;
 }
