@@ -21,27 +21,27 @@ function App() {
       </section> 
 
 
-     {/* <section id='ABOUT'>
+     <section id='ABOUT'>
         <About />
-      </section> */}
+      </section>
 
 
-       {/* <section id='SKILLS'>
+       <section id='SKILLS'>
         <Skills />
-      </section> */}
+      </section>
 
 
-      {/* <section id='QUALIFICATIONS'>
+      <section id='QUALIFICATIONS'>
       <Qualifications />
-      </section> */}
+      </section>
 
-      {/* <section id='SERVICES'>
+      <section id='SERVICES'>
       <Services />
-      </section> */}
+      </section>
 
-      {/* <section id='PORTFOLIO'>
+      <section id='PORTFOLIO'>
       <Prouects />
-      </section> */}
+      </section>
 
       <section id="CONTACT">
       <Contactme />
