@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import { Link, NavLink } from "react-router-dom";
 import "./Header.css";
-import cv from "../../assets/Mohamed Badr.pdf";
+import cv from "../../assets/Mohamed Badr Resume.pdf";
 const Header = () => {
   useEffect(() => {
     const elementTop = document.querySelectorAll(".top-animated-nav ");

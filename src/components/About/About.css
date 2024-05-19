@@ -44,7 +44,7 @@
   color: white;
   text-decoration: none;
 }
-.about-animation {
+.left-about-animation {
   opacity: 0;
   transform: translateX(-50%);
   transition: all 0.8s ease-in-out;

@@ -1,9 +1,9 @@
 import React, { useEffect } from "react";
 import "../About/About.css";
-import cv from "../../assets/Mohamed Badr.pdf";
+import cv from "../../assets/Mohamed Badr Resume.pdf";
 const About = () => {
   useEffect(() => {
-    const elementsLeftAbout = document.querySelectorAll(".about-animation");
+    const elementsLeftAbout = document.querySelectorAll(".left-about-animation");
     const elementAboutButton = document.querySelectorAll(
       ".button-about-animation"
     );
@@ -41,7 +41,7 @@ const About = () => {
   return (
     <>
       <div className="container">
-        <div className="aboutData about-animation">
+        <div className="aboutData left-about-animation ">
           <h4>It is an Overview.</h4>
           <h1 className="aboutHeader">About Me</h1>
           <p>
