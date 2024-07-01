@@ -5,7 +5,8 @@ import edara from "../../imgs/edara.jpeg";
 import weather from "../../imgs/weather.jpeg";
 import resto from "../../imgs/resto.jpeg";
 import elec from "../../imgs/shop.jpeg";
-import php from "../../imgs/full.png";
+import zakerny from "../../imgs/zakerny.png";
+import quicky from "../../imgs/Quicky.png";
 import OwlCarousel from "react-owl-carousel";
 import "owl.carousel/dist/assets/owl.carousel.css";
 import "owl.carousel/dist/assets/owl.theme.default.css";
@@ -96,6 +97,79 @@ const Prouects = () => {
             <h5 className="projects-subtitle">Some of My Work</h5>
           </div>
           <div className="row default-projects">
+
+          <div className="col-md-4 col-sm-6 mb-5 project-right-animated-card">
+              <div className="project">
+                <div className="card">
+                  <img
+                    src={quicky}
+                    className="card-img-top w-100 card-image"
+                    alt="..."
+                  />
+                  <div className="card-body">
+                    <h5 className="card-title text-center">Quicky</h5>
+                    <p className="card-text">
+                    Quicky Website , it is a full stack <strong>E-commerce project</strong>.
+                    </p>
+                    <p className="card-text-2">
+                    #html #css #bootstrap #js #React js #api #reducxtoolkit 
+                    </p>
+                    <div className="text-center">
+                      <a
+                        href="https://mohamedbadrr.github.io/E-commerce/"
+                        target="_blank"
+                        className="d-button px-4 py-2 mx-2 mb-3"
+                      >
+                        Demo
+                      </a>
+                      <a
+                        href="https://github.com/MohamedBadrr/E-commerce"
+                        className="d-button px-3 py-2 mx-2 mb-3"
+                      >
+                        Code
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className="col-md-4 col-sm-6 mb-5 project-right-animated-card">
+              <div className="project">
+                <div className="card">
+                  <img
+                    src={zakerny}
+                    className="card-img-top w-100 card-image"
+                    alt="..."
+                  />
+                  <div className="card-body">
+                    <h5 className="card-title text-center">Zakerny-Al-Eslamy</h5>
+                    <p className="card-text">
+                    هذا موقع يضم القران الكريم كاملا قراءة و استماع بصوت جميع الشيوخ
+                    </p>
+                    <p className="card-text-2">
+                    #html #css #bootstrap #tailwind #js #React js #api #reducxtoolkit 
+                    </p>
+                    <div className="text-center">
+                      <a
+                        href="https://zakerny-al-eslamy.netlify.app/"
+                        target="_blank"
+                        className="d-button px-4 py-2 mx-2 mb-3"
+                      >
+                        Demo
+                      </a>
+                      <a
+                        href="https://github.com/MohamedBadrr/Zakerny-Al-Eslamy"
+                        className="d-button px-3 py-2 mx-2 mb-3"
+                      >
+                        Code
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
             <div className="col-md-4 col-sm-6 mb-5 project-right-animated-card">
               <div className="project">
                 <div className="card">
@@ -173,44 +247,6 @@ const Prouects = () => {
               </div>
             </div>
 
-            <div className="mb-5 col-md-4 col-sm-6 project-left-animated-card">
-              <div className="project ">
-                <div className="card ">
-                  <img
-                    src={weather}
-                    className="card-img-top w-100 card-image"
-                    alt="..."
-                  />
-                  <div className="card-body">
-                    <h5 className="card-title text-center">Weather-App</h5>
-                    <p className="card-text">
-                      weather App : you enter any country or any city and the
-                      app send you the weather in this place from an external
-                      api.
-                    </p>
-                    <p className="card-text-2">
-                      #html #css #bootstrap #js #React js #api
-                    </p>
-                    <div className="text-center">
-                      <a
-                        href="https://mohamedbadrr.github.io/Weather-APP/"
-                        target="_blank"
-                        className="d-button px-4 py-2 mx-2 mb-3"
-                      >
-                        Demo
-                      </a>
-                      <a
-                        href="https://github.com/MohamedBadrr/Weather-APP"
-                        className="d-button px-3 py-2 mx-2 mb-3"
-                      >
-                        Code
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
             <div className=" mb-5 col-md-4  col-sm-6 project-right-animated-card">
               <div className="project">
                 <div className="card">
@@ -232,38 +268,6 @@ const Prouects = () => {
                     <div className="text-center">
                       <a
                         href="https://github.com/MohamedBadrr/Edara-Dashboard"
-                        className="d-button px-3 py-2 mx-2 mb-3"
-                      >
-                        Code
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div className=" mb-5 col-md-4  col-sm-6 middlle-animated-card">
-              <div className="project">
-                <div className="card">
-                  <img
-                    src={php}
-                    className="card-img-top w-100 card-image"
-                    alt="..."
-                  />
-                  <div className="card-body">
-                    <h5 className="card-title text-center">E-Commerce</h5>
-                    <p className="card-text">
-                      This is a full-stack project ( external templet & php
-                      &mysql ). it manages products , categories ,and the app
-                      should rate the products.{" "}
-                    </p>
-                    <p className="card-text-2">
-                      #external-templet-as-frontend #php #mysql{" "}
-                    </p>
-                    <div className="text-center">
-                      <a
-                        href="https://github.com/MohamedBadrr/E-commerce-App"
-                        target="_blank"
                         className="d-button px-3 py-2 mx-2 mb-3"
                       >
                         Code
@@ -312,6 +316,79 @@ const Prouects = () => {
 
           <div className=" row my-5 carsool-projects">
             <OwlCarousel className="owl-theme" {...options}>
+
+            <div className="item text-center">
+                <div className="project">
+                  <div className="card">
+                    <img
+                      src={quicky}
+                      className="card-img-top w-100 card-image"
+                      alt="..."
+                    />
+                    <div className="card-body">
+                      <h5 className="card-title text-center">Quicky</h5>
+                      <p className="card-text">
+                      Quicky Website , it is a fully functions <strong>E-commerce project</strong>.
+                      </p>
+                      <p className="card-text-2">
+                        #html #css #bootstrap #js #React js #api #reducxtoolkit 
+                      </p>
+                      <div className="text-center">
+                        <a
+                          href="https://mohamedbadrr.github.io/E-commerce/"
+                          target="_blank"
+                          className="d-button px-4 py-2 mx-2 mb-3"
+                        >
+                          Demo
+                        </a>
+                        <a
+                          href="https://github.com/MohamedBadrr/E-commerce"
+                          className="d-button px-3 py-2 mx-2 mb-3"
+                        >
+                          Code
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div className="item text-center">
+                <div className="project">
+                  <div className="card">
+                    <img
+                      src={zakerny}
+                      className="card-img-top w-100 card-image"
+                      alt="..."
+                    />
+                    <div className="card-body">
+                      <h5 className="card-title text-center">Zakerny-Al-Eslamy</h5>
+                      <p className="card-text">
+                      هذا موقع يضم القران الكريم كاملا قراءة و استماع بصوت جميع الشيوخ
+                      </p>
+                      <p className="card-text-2">
+                        #html #css #bootstrap #tailwind #js #React js #api #reducxtoolkit 
+                      </p>
+                      <div className="text-center">
+                        <a
+                          href="https://zakerny-al-eslamy.netlify.app/"
+                          target="_blank"
+                          className="d-button px-4 py-2 mx-2 mb-3"
+                        >
+                          Demo
+                        </a>
+                        <a
+                          href="https://github.com/MohamedBadrr/Zakerny-Al-Eslamy"
+                          className="d-button px-3 py-2 mx-2 mb-3"
+                        >
+                          Code
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
               <div className="item text-center">
                 <div className="project">
                   <div className="card">
@@ -349,6 +426,7 @@ const Prouects = () => {
                   </div>
                 </div>
               </div>
+
               <div className="item text-center">
                 <div className="project">
                   <div className="card">
@@ -387,43 +465,7 @@ const Prouects = () => {
                   </div>
                 </div>
               </div>
-              <div className="item text-center">
-                <div className="project">
-                  <div className="card">
-                    <img
-                      src={weather}
-                      className="card-img-top w-100 card-image"
-                      alt="..."
-                    />
-                    <div className="card-body">
-                      <h5 className="card-title text-center">Weather-App</h5>
-                      <p className="card-text">
-                        weather App : you enter any country or any city and the
-                        app send you the weather in this place from an external
-                        api.
-                      </p>
-                      <p className="card-text-2">
-                        #html #css #bootstrap #js #React js #api
-                      </p>
-                      <div className="text-center">
-                        <a
-                          href="https://mohamedbadrr.github.io/Weather-APP/"
-                          target="_blank"
-                          className="d-button px-4 py-2 mx-2 mb-3"
-                        >
-                          Demo
-                        </a>
-                        <a
-                          href="https://github.com/MohamedBadrr/Weather-APP"
-                          className="d-button px-3 py-2 mx-2 mb-3"
-                        >
-                          Code
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
+
               <div className="item text-center">
                 <div className="project">
                   <div className="card">
@@ -454,37 +496,7 @@ const Prouects = () => {
                   </div>
                 </div>
               </div>
-              <div className="item text-center">
-                <div className="project">
-                  <div className="card">
-                    <img
-                      src={php}
-                      className="card-img-top w-100 card-image"
-                      alt="..."
-                    />
-                    <div className="card-body">
-                      <h5 className="card-title text-center">E-Commerce</h5>
-                      <p className="card-text">
-                        This is a full-stack project ( external templet & php
-                        &mysql ). it manages products , categories ,and the app
-                        should rate the products.{" "}
-                      </p>
-                      <p className="card-text-2">
-                        #external-templet-as-frontend #php #mysql{" "}
-                      </p>
-                      <div className="text-center">
-                        <a
-                          href="https://github.com/MohamedBadrr/E-commerce-App"
-                          target="_blank"
-                          className="d-button px-3 py-2 mx-2 mb-3"
-                        >
-                          Code
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
+
               <div className="item text-center">
                 <div className="project">
                   <div className="card">
