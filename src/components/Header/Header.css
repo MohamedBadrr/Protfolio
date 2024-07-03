@@ -15,6 +15,9 @@
 .navbar-brand {
   color: var(--first-color) !important;
   background-color: transparent !important;
+  font-family: serif !important;
+  font-style: italic;
+  font-size: 25px !important  ;
 }
 .NavColor {
   color: white !important;
