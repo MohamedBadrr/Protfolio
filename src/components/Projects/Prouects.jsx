@@ -33,12 +33,11 @@ const Prouects = () => {
         threshold: 0.4,
       };
 
-      const callbacks = (entries) => {
+      const callbacks = (entries,observer) => {
         entries.forEach((entry) => {
           if (entry.isIntersecting) {
             entry.target.classList.add("cards-animation");
-          } else {
-            entry.target.classList.remove("cards-animation");
+            observer.unobserve(entry.target);
           }
         });
       };

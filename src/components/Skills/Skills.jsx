@@ -18,16 +18,15 @@ const Skills = () => {
       const options = {
         root: null,
         rootMargin: "0px",
-        threshold: 0.4,
+        threshold: 0.3,
       };
 
-      const callbacks = (entries) => {
+      const callbacks = (entries,observer) => {
         entries.forEach((entry) => {
           if (entry.isIntersecting) {
             entry.target.classList.add("skills-animation");
-          } else {
-            entry.target.classList.remove("skills-animation");
-          }
+            observer.unobserve(entry.target);
+          } 
         });
       };
 

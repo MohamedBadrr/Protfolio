@@ -21,12 +21,11 @@ const Contactme = () => {
         threshold: 0.4,
       };
 
-      const callbacks = (entries) => {
+      const callbacks = (entries,observer) => {
         entries.forEach((entry) => {
           if (entry.isIntersecting) {
             entry.target.classList.add("about-animation");
-          } else {
-            entry.target.classList.remove("about-animation");
+            observer.unobserve(entry.target);
           }
         });
       };

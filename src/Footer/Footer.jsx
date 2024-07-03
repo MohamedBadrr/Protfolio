@@ -10,12 +10,11 @@ const Footer = () => {
         threshold: 0.4,
       };
 
-      const callbacks = (entries) => {
+      const callbacks = (entries,observer) => {
         entries.forEach((entry) => {
           if (entry.isIntersecting) {
             entry.target.classList.add("nav-animation");
-          } else {
-            entry.target.classList.remove("nav-animation");
+            observer.unobserve(entry.target);
           }
         });
       };
