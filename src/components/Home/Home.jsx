@@ -1,8 +1,7 @@
 
 import React, { useEffect } from 'react';
 import "../Home/Home.css";
-import profileImg3 from "../../imgs/profile3.png";
-import profileImg4 from "../../imgs/profile4.png";
+import profileImg4 from "../../imgs/portofolioImage.png";
 
 
 import { useTypewriter , Cursor, Typewriter } from 'react-simple-typewriter';

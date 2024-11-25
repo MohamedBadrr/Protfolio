@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import "../About/About.css";
-import cv from "../../assets/Mohamed Badr Resume.pdf";
+import cv from "../../assets/Mohamed Badr Esmail-Frontend React-Js.pdf";
 
 const About = () => {
   useEffect(() => {
